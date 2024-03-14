@@ -1,0 +1,18 @@
+body {
+    background-color: beige;
+}
+p {
+    font-family: Arial;
+    color: blueviolet;
+}
+.div-color {
+    background-color: brown;
+    color: aquamarine;
+}
+#unique {
+    border: 3px solid pink;
+
+}
+.div-italic {
+    font-style: italic;
+}
