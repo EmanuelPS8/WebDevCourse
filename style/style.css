@@ -1,18 +1,17 @@
-body {
-    background-color: beige;
+body{
+    background-color: gainsboro;
 }
-p {
-    font-family: Arial;
-    color: blueviolet;
+a {
+    color: cadetblue;
+    text-decoration: none;
 }
-.div-color {
-    background-color: brown;
-    color: aquamarine;
+input, button{
+    width: 40%;
+    border: 2px solid gray;
+    padding: 5px;
 }
-#unique {
-    border: 3px solid pink;
-
-}
-.div-italic {
-    font-style: italic;
+.logo {
+    color: blue;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
