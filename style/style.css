@@ -14,4 +14,9 @@ input, button{
     color: blue;
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+
+#padding-test{
+    border: 2px solid blue;
+    padding: 5px;
 }
