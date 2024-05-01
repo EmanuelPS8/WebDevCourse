@@ -12,20 +12,24 @@ body{
 }
 .navbar h2{
     color: #edff00;
-
+    
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    position: fixed;
+    background-color: #111111;
+    top: 0;
+    width: 99%;
 }
 .navbar ul{
     display: flex;
     color: #FAFBFC;
 }
 .navbar li{
-    margin: 20px;
+    margin: 30px;
     color: #FAFBFC;
 }
 .navbar ul li{
@@ -61,25 +65,62 @@ body{
     white-space: nowrap;
     word-wrap: break-word;
 }
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.container {
-    color: #FAFBFC;
-    padding: 2px 16px;
-    justify-content: space-between;
-}
+
 .presentation {
     font-family: poppins;
     color: white;
     text-align: center;
 }
+.presentation img{
+    width: 200px;
+}
 
 
+.float-child {
+    font-family: poppins;
+    color: #FAFBFC;
+    width: 32%;
+    float: right;
+    padding-right: none;
+    /* border: 1px solid white; */
+    margin: 1px;
+}
+.title {
+    text-align: center;
+    color: #FAFBFC;
+}
+.title a{
+    color: #FAFBFC;
+    font: poppins;
+    text-decoration: none;
+}
+
+.contact ul li {
+    color: #FAFBFC;
+    text-align: center;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.contact a{
+    text-align: center;
+    color: #FAFBFC;
+    font-family: poppins;
+    text-decoration: none;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #24292E;
+    border-radius: 10px;
+  }
