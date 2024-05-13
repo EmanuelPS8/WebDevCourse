@@ -22,7 +22,7 @@ body{
     position: fixed;
     background-color: #111111;
     top: 0;
-    width: 99%;
+    width: 100%;
 }
 .navbar ul{
     display: flex;
